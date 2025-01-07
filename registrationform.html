@@ -6,7 +6,7 @@
     <title>Document</title>
    
 </head>
-<body>
+<body><fieldset>
 <center><h1>REGISTRATION FORM</h1> <form action="https://api.web3forms.com/submit" method="post" >
 <input type="hidden" name="access_key" value="d47ac2c5-07f7-4635-9bb4-2be9beb43c59">
     <label for="name">User Name:</label><br>
@@ -21,11 +21,22 @@
     <input type="number" name="usermobile" id="contact">
     <br>
     <br>
+    <label for="course">Course Applied For:</label><br>
+            <select id="course" name="course" required>
+                <option value="">Select</option>
+                <option value="python fullstack">Python Fullstack</option>
+                <option value="java full stack">Java Fullstack</option>
+                <option value="data science">Data science</option>
+                <option value="data analysis">Data Analysis </option>
+            </select>
+    <br>
+    <br>
     <input type="submit" value="submit">
     <input type="reset" value="reset">
     <br>
     <br>
        </center>
+    </fieldset>
 </form>
 </body>
 </html>
