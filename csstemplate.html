@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-size: 1rem;
+    }
+    header{
+        position: sticky;
+        top: 0%;
+        width: 100%;
+        display: inline-block; 
+        background-color: whitesmoke;
+        z-index: 999; 
+    }
+    .ol{
+        margin-left: 850px;
+        display: inline-block;
+        position: sticky;
+        top: 0%;
+        padding: 10px;
+    }
+    .container-1{
+        
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin-left: 100px;
+        margin-right: 100px;
+        padding: 50px;
+    
+    }
+    .container-2{
+        margin-left: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        position: relative;
+        margin-left: 750px;
+        padding: 40px;
+        
+
+    }
+    .about{
+        position: absolute;
+        left: 500px;
+        padding: 50px;
+
+    }
+    .menu{
+        position: absolute;
+        left: 140px;
+        padding: 80px;
+
+    }
+        .card-container{
+        display: flex;
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+        padding-left: 220px;
+        
+           
+        }
+        .card{
+        cursor: pointer;
+        border: 3px solid lightgray;
+        transform: scale(1.05);
+        transition: all 0.3s ease-in-out;
+        border-radius: 10px;
+        margin: 20px;
+    }
+    .card img {
+        width: 250px;
+  height: 250px;
+    }
+    .card:hover {
+  cursor: pointer;
+  border: 3px solid red;
+  transform: scale(1.05);
+  transition: all 0.8s ease-in-out;
+}
+        
+        footer{
+        text-align: center;
+        background-color: lightskyblue;
+        height: 30px;
+        padding-top: 8px;
+    
+
+
+        }
+
+</style>
+<body>
+    <header>M.M.Y CATERING<nav class="ol">
+        <a href="#about">ABOUT</a>
+        <a href="#menu">MENU</a>
+        <a href="#contact">CONTACT US</a>
+    </nav>
+</header>
+<img src="https://www.w3schools.com/w3images/hamburger.jpg" width="100%"  height="600px"><br> <br>
+<hr style="margin: 0 100px;">
+<div class="container-1"><div class="image-1"><img src="https://www.w3schools.com/w3images/tablesetting2.jpg" width="350" height="400"></div>
+ <div class="about">
+ <p> <h1 id="about" style="text-align: center;">ABOUT CATERING</h1></p>
+<p> <h4 style="text-align: center; padding-top: 20px;">Tradition since 1980</p></h4> <br>
+<p> The Catering was founded in blabla by Mr. Smith in lorem ipsum dolor sit amet, consectetur adipiscing elit consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p> <br><br>
+    <p style="color: lightgray;"> Duis aute iruredolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.We only use seasonal ingredients.
+    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod temporincididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+</div>
+</div>  
+<hr style="margin: 0 100px;">
+<div class="menu">
+    <p>
+        <h1 id="menu" style="text-align: center;">OUR MENU</h1><br> </p>
+    <p><h4>Bread Basket:</h4> <br>
+    Assortment of fresh baked fruit breads and muffins 5.50 <br> <br>
+    <h4>Honey Almond Granola with Fruits:</h4> <br>
+    Natural cereal of honey toasted oats, raisins, almonds and dates 7.00 <br> <br>
+    <h4>Belgian Waffle: </h4><br>
+    Vanilla flavored batter with malted flour 7.50 <br> <br>
+    <h4>Scrambled eggs: </h4><br>
+    Scrambled eggs, roasted red pepper and garlic, with green onions 7.50 </p><br> <br>
+    
+</div>
+<div class="container-2">
+    <img src="https://www.w3schools.com/w3images/tablesetting.jpg" width="350" height="400">
+</div> 
+<hr style="margin: 0 100px;">
+<h1 style="text-align: center; padding-top: 20px;">MORE ITEMS</h1>
+        <div class="card-container">
+            <div class="card">
+                <img src="https://www.archanaskitchen.com/images/archanaskitchen/basic_recipes/Amazing_Non_Veg_Appetizers__Starters_For_Your_New_Year_Party.jpg"  alt="" >
+                    <h6>Non-veg Starters</h6>
+                </div>
+                <div class="card">
+                    <img src="https://i.ndtvimg.com/i/2017-11/paneer_620x350_51510901864.jpg"  alt="" >
+                        <h6>Veg Starters</h6>
+                    </div>
+                    <div class="card">
+                        <img src="https://media-assets.swiggy.com/swiggy/image/upload/f_auto,q_auto,fl_lossy/jf39dxdhdswt5dqhpte1"   alt="" >
+                            <h6> Hyderabad Birayani</h6>
+                        </div>
+                    </div>
+                    <div class="card-container">
+                        <div class="card">
+                        <img src="https://www.thespruceeats.com/thmb/-mtgGMcCCmJhjY2KqImVP3OtFL4=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/chinese-take-out-472927590-57d31fff3df78c5833464e7b.jpg"  alt="">
+                         <h6>Chinese food</h6>
+                        </div>
+                    <div class="card">
+                    <img src="https://www.chefonline.co.uk/blog/public/storage/image/post_image/post_image_21659433690.jpg"  alt="" >
+                        <h6>North indian food</h6>
+                    </div> 
+                        <div class="card">
+                            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMJeVqyHVc-97o-5P6A1KY3jB5zKNcLxaePA&s"  alt="" >
+                                <h6>Sea food</h6>
+                            </div> </div>
+    <hr style="margin: 0 100px;" > <br><br>
+    <center>
+        <h1 id="contact">CONTACT US</h1>
+          <a href="tel:9381987179"> <img src="https://img.freepik.com/free-vector/telephone-call-icon-3d-vector-illustration-social-media-symbol-networking-sites-apps-cartoon-style-isolated-white-background-online-communication-digital-marketing-concept_778687-1734.jpg?w=360" width="100px" height="100px"></a>
+          <a href="https://wa.me/9381987179?text=hello"><img src="https://blog.logomyway.com/wp-content/uploads/2017/02/whatsapp-icon.jpg" width="100px"height="100px"></a>
+    
+        </center> 
+        <hr style="margin: 0 100px;" ><br><br> 
+        <footer>@mahesh_mittu</footer>
+                                                   
+</body>
+</html>
